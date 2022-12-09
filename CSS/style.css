@@ -49,12 +49,35 @@ h5 {
     padding: 20px;
 }
 
+.container-fluid {
+    display: flex;  /*setting a display is required to justify the content (?) */
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+.col-sm-12 {
+    display: flex;
+    justify-content: center;
+}
+
+.cardContainer {   
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+}
+
 #A {
     background-image: url(../images/peter-andrew-janglebonespete-zdzisaw-beksinski-garden-of-earthly-delights-w-2394bdf6-5efa-4ecb-a0a1-78272e623571.jpg);
     width: 100%;
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 #B {

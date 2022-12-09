@@ -7,24 +7,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../bootstrap-portfolio/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-    <!--NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Pete Andrew - Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span> <!-- The burger menu -->
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            
             <a class="nav-item nav-link" href="#">Work</a>
             <a class="nav-item nav-link" href="#">Skills</a>
             <a class="nav-item nav-link" href="#">About Me</a>
             <a class="nav-item nav-link" href="#">Contact</a>
+            
             <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
           </div>
+          <div class="Darwin-logo"></div>
         </div>
     </nav>
 
@@ -44,7 +46,7 @@
       <div class="container-fluid">
         <div class="row">
       
-          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+          <div class="cardContainer col-lg-3 col-md-6 col-sm-12">
             <div class="card" style="width: 18rem;">
               <div id="A"></div>
               <div class="card-body">
@@ -56,7 +58,7 @@
             </div>
           </div>
       
-          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+          <div class="cardContainer col-lg-3 col-md-6 col-sm-12">
             <div class="card" style="width: 18rem;">
               <div id="B"></div>
               <div class="card-body">
@@ -68,7 +70,7 @@
             </div>
           </div>
       
-          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+          <div class="cardContainer col-lg-3 col-md-6 col-sm-12">
             <div class="card" style="width: 18rem;">
               <div id="C"></div>
               <div class="card-body">
@@ -80,7 +82,7 @@
             </div>
           </div>
           
-          <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+          <div class="cardContainer col-lg-3 col-md-6 col-sm-12">
             <div class="card" style="width: 18rem;">
               <div id="D"></div>
               <div class="card-body">
@@ -116,7 +118,13 @@
       </section>
 
         <footer class="footer">
+          <section>    <!-- why does this have to be in a nested section to work? -->
+            <div class="Darwin-logo-footer"></div>
             
+            <p>© Peter Andrew 2022 </p>
+          </section>
+          
+          
         </footer>
 </body>
 </html>

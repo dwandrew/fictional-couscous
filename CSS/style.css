@@ -1,0 +1,84 @@
+.jumbotron {
+    background-image: url(../images/peter-andrew-desert-render-final-edit-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container h1 {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 450;
+}
+
+.container p {
+    color: white;
+    font-weight: 450;
+}
+
+.Skills {
+    display: flex;
+    flex-direction:column;
+    background-color: cadetblue;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.footer {
+    background-color: aqua;
+}
+
+#PetePic {
+    background-image: url(../images/photo-of-me-3.jpg);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 50px;     
+    border-radius: 50%;
+    border: 10px rgb(45, 141, 185) solid;
+}
+
+.jumbo-text-container {
+    background-color: rgba(112, 205, 241, 0.9) ;
+    height: 100%;
+    width: 80%;
+    z-index: 10;
+    margin-top: 400px;
+    border: 8px solid rgb(138, 223, 230);
+    padding: 20px;
+}
+
+#A {
+    background-image: url(../images/peter-andrew-janglebonespete-zdzisaw-beksinski-garden-of-earthly-delights-w-2394bdf6-5efa-4ecb-a0a1-78272e623571.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#B {
+    background-image: url(../images/peter-andrew-blender-still-life-render-4.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#C {
+    background-image: url(../images/peter-andrew-sunken-king-ps-edit-2.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#D {
+    background-image: url(../images/peter-andrew-desert-render-final-edit-1.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

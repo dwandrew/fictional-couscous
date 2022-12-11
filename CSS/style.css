@@ -1,20 +1,23 @@
 .navbar {
-    /* position: fixed;
+    position: fixed;
     width: 100%;
-    z-index: 12;  */
+    z-index: 12; 
+    margin-top: -90px;
+    height: 90px;
+    border-bottom: 3px solid rgb(86, 213, 230);
     
 } 
 
 .Darwin-logo {
     
     display: flex;
-    Width: 80px;
-    height: 80px;
+    Width: 70px;
+    height: 70px;
     background-image: url(../images/darwin\ flower\ black\ BIG.png);
     background-size: cover;
     /* background-color: aquamarine; */
     margin-left: 18%;
-    border: 5px solid black;
+    border: 3px solid black;
     border-radius: 50%;
 }
 
@@ -33,7 +36,7 @@ a:hover {
     background-image: url(../images/peter-andrew-desert-render-final-edit-1.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .container h1 {
